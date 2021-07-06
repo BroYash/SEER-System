@@ -16,6 +16,8 @@ before_deploy:
 deploy:
   provider: heroku
   app: seer-system
+  api_key:
+    secure: biUGL1S1ia1Xgk4ZlJzmXRcu4ceL9aeYKqfEh+iWmI/ZjebFqygb1mfgkxr4IuOEk/I/pTvv8B+83U0xKwhSgJrDV0Wvi8RYr77p2pPcsD5cyEiGuHzKn8yaWr8rG0ZK4c0Iqu1KFOM0qRpGz6hqsZUTYA1AbF4dFsR6EZiHarkHwLudpb52rkHtFXICvxq5ghGHNtzZPRHbRHldzQ3pHpf3OMCcB3GV0kGLcuXcOivLYB0OPgNYnSXYapxqMeXoFPlMQw64yGizrW6oDN/z/wjuoVWtAoM/qQ6YmiLMBy1alZLX/mVVhrq08Q7fX8IHwqzhbbuZYmlnSHVQKH/RiIA0pKdzjsDaqdihW1JfsohCsgPKm6ikrtm58jHlh0fw1AjQYmE/Y/smTiZO3sTFtEH0qprh9voTVHNGzAa7LBeTdVDzkelDeoi8YCdEZpdSW0qf0lYe6c3PsUYNA+PVxkMnm6alaFn3VSFfoH2OjMsC8DOi1QYTQOP8Iw3I9Ir2MRvN+jD2BY8NBJkcHpbdPRZ+/7EZymDToCdznOreURraYt0OE2xewO7RjecJ11nCJtcX+zCMbxtrNWF7pQ1AJ5U12jv/JpZbUzs1UUTjl8Xf+TKFAO8M7l13aBLDM7DX9SmtwD077pmZEMqmL3gHkj6S2yi5JhJcdNRJHh/cND8=
   on:
     repo: BroYash/SEER-System
     branch: master
